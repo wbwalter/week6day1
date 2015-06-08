@@ -1,0 +1,1052 @@
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+/** colors
+
+	red  =  #b50000
+	other red    = #cc0000
+
+	gray font  =  #727578
+
+	light gray background  =  #cccccc
+**/
+
+
+
+body {
+	font-family: "Helvetica Neue";
+}
+
+
+h1 {
+	font-size: 1.9em;
+}
+
+
+h2{
+	font-size: 1.3em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+
+a {
+	text-decoration: none;
+	color: #b50000;
+	font-size: 0.6em;
+}
+
+
+
+/** mobile site **/
+
+
+
+
+.main_header_logo {
+	display: none;
+}
+
+.main_header {
+	position: relative;
+}
+
+.across_page_header {
+	border-bottom: 1px solid #727578;
+	height: 35px;
+}
+
+.mobile_logo {
+	height: 30px;
+	margin-left: 43%;
+}
+
+
+.shopping_cart_icon{
+	height: 23px;
+	float: right;
+}
+
+.man_profile_icon {
+	height: 23px;
+	float: right;
+	margin-right: 1%;
+}
+
+
+.menu_button {
+	height: 17px;
+	float: left;
+}
+
+.wide_menu_button {
+	display: none;
+}
+
+
+.search_icon {
+	float: left;
+	height: 20px;
+	margin-left: 5%;
+}
+
+.header_nav{
+	display: none;
+}
+
+
+.header_bar{
+	border-bottom: 1px solid #727578;
+}
+
+.search_bar {
+	display: none;
+}
+
+.in_your_cart {
+	display:none;
+}
+
+.free_shipping_header_2{
+	display: none;
+}
+
+.free_shipping_header{
+	text-decoration: none;
+	text-align: center;
+	font-size: 0.8em;
+	color: #727578;
+}
+
+.free_shipping_header span{
+	color: #b50000;
+}
+
+.header_categories h3 {
+	display: none;
+}
+
+.side_bar_nav {
+	display: none;
+}
+
+.main_wrapper {
+	background: #ebebeb;
+	border-radius: 5px;
+}
+
+.category_title h6, .category_title h1 {
+	text-align: left;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	width: 100%;
+}
+
+.category_title h6 {
+	padding-top: 10px;
+}
+
+.category_title h1 {
+	margin-top: 0;
+	border-bottom: 1px solid #727578;
+}
+
+.category_title h6, .category_title h1, .top_rated h2, .featured_items_mobile h2, .featured_items h2, .shop_categories h2{
+	margin-left: 5%;
+	width: 90%;
+}
+
+.shop_categories img{
+	display: none;
+}
+
+.shop_categories a{
+	text-decoration: none;
+	display: block;
+	width: 90%;
+	background: #b50000;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 10px auto;
+	font-size: 1em;
+}
+
+.top_rated h2{
+	margin-top: 40px;
+	border-top: 1px solid #727578;	
+}
+
+.featured_items {
+	display: none;
+}
+
+.discounted {
+	display: none;
+}
+
+.watch {
+	width: 48%;
+	margin: 0 auto;
+	background: white;
+	padding:5%;
+	border-radius: 5px;
+	margin-top: 35px;
+}
+
+
+.watch img{
+	height: 100px;
+
+}
+
+
+.watch h4{
+	margin-bottom: 10px;
+	padding-bottom: 0;
+}
+
+
+.watch p{
+	margin-bottom: 10px;
+	padding-bottom: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+.watch h6 {
+	margin-bottom: 10px;
+	padding-bottom: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+.ships p{
+	color: #b50000;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+.featured_items_mobile h2, .featured_items h2, .discounted h2, .discounted_mobile h2{
+	margin-top: 60px;
+	margin-left: 5%;
+	border-top: 1px solid #727578;
+}
+
+.kid_bikes_image img{
+	height: 155px;
+}
+
+
+.kid_bike_wrapper {
+	background: white;
+	margin: 0 10% 0 10%;
+	border-radius: 5px;
+	margin-top: 35px;
+	padding: 5%;
+}
+
+
+.kid_bikes_image {
+	float: left;
+	width: 40%;
+}
+
+.kid_bikes {
+	float: left;
+	width:40%;
+	margin-left: 15%;
+}
+
+.kid_bikes h4, .kid_bikes a, .fathers_day_words h4, .fathers_day_words a{
+	margin-bottom: 0;
+	margin-top: 0;
+	display: block;
+}
+
+.kid_bikes p, .fathers_day_words p{
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 0.8em;
+}
+
+.pool_image img{
+	clear: both;
+	height: 350px;
+	margin-top: 20px;
+	width: 100%;
+	padding: 5% 10%;
+	/*box-shadow: 1px 1px 5px #727578; */
+}
+
+.fathers_day {
+	background: white;
+	margin: 0 10% 0 10%;
+	border-radius: 5px;
+	margin-top: 35px;
+	padding: 5%;	
+}
+	
+.fathers_day_words{
+	float: left;
+	width: 40%;
+}
+
+.fathers_day_image{
+	float: left;
+	width: 60%;
+}
+
+.fathers_day_image img{
+	height: 100px;
+}
+
+.pre_footer_p1, .pre_footer_p2 {
+	font-size: 0.5em;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.pre_footer_p1 {
+	margin-top: 60px;
+	border-top: 1px solid #727578;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+.pre_footer_p2 {
+	padding-bottom: 20px;
+}
+
+.site_footer {
+	background: white;
+	padding-bottom: 50px;
+}
+
+.footer_nav ul{
+	float: right;
+	width: 84%;
+}
+
+.footer_nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 3%;
+}
+
+
+.footer_logo {
+	width: 15%;
+	float: right;
+}
+
+.footer_logo img{
+	height: 70px;
+	padding-top: 20px;
+	margin-left: 26%;
+}
+
+.viewed_items{
+	display: none;
+}
+
+.secondary_footer_nav ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-left: 5%;
+}
+
+.secondary_footer_nav li{
+	list-style: none;
+}
+
+.secondary_footer_nav_p{
+	clear: both;
+	padding-top: 10px;
+	margin-top: 30px;
+	border-top: 1px solid #727578;
+	padding-left: 5%;
+}
+
+.third_footer_nav {
+	display: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 425px) {
+
+	.fathers_day_image img {
+		height: 120px;
+	}
+	
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 680px) {
+
+
+
+	h1 {
+		font-size: 2em;
+	}
+
+
+	h2{
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
+
+	h4 {
+		font-size: 1.1em;
+	}
+
+
+	a {
+		text-decoration: none;
+		color: #b50000;
+		font-size: 0.6em;
+	}
+
+
+
+	.category_title h1{
+		margin-bottom: 20px;
+	}
+
+	.shop_categories h2{
+		margin-bottom: 10px;
+	}
+
+	.shop_categories a{
+		width: 40%;
+		float: left;
+		margin: 10px 5% 10px 5%;
+	}
+
+	.watch img {
+		height: 130px;
+	}
+
+	.kid_bikes_image img{
+		height: 200px;
+	}
+
+	.top_rated{
+		clear: both;
+	}
+
+	.pool_image img{
+		height: 450px;
+	}
+
+	.fathers_day_image img{
+		height: 200px;
+	}
+
+	.pre_footer_p1, .pre_footer_p2 {
+		font-size: 0.6em;
+	}
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 875px) {
+
+	.pool_image img {
+		float: left;
+		width: 44%;
+		height: 250px;
+		margin: 16px 2% 0 5%;
+		padding: 0;
+	}
+
+	.fathers_day {
+		float: left;
+		width: 43%;
+		margin: 0;
+		margin-top: 17px;
+		height: 250px;
+	}
+
+	.fathers_day_image img{
+		height: 150px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+	h1 {
+		font-size: 2.2em;
+	}
+
+
+	h2{
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.3em;
+	}
+
+	h4 {
+		font-size: 1.6em;
+	}
+
+
+	a {
+		text-decoration: none;
+		color: #b50000;
+		font-size: 0.6em;
+	}
+
+
+
+
+.mobile_logo, .shopping_cart_icon, .man_profile_icon, .search_icon, .menu_button {
+	display: none;
+}
+
+.main_wrapper {
+	background: none;
+}
+
+.across_page_header{
+	background: #b50000;
+	width: 100%;
+	height: 100px;
+}
+
+
+.main_header_logo {
+	height: 55px;
+	float: left;
+	display: inline-block;
+}
+
+
+.header_wrapper {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 10px;
+	margin-left: 19%;
+}
+
+
+.header_nav {
+	float: left;
+	width: 82%;
+	display: inline-block;
+	margin-left: 5%;
+	height: 60px;
+	padding-top: 15px;
+}
+
+.header_nav ul{
+	height: 46px;
+	padding: 0;
+	margin: 0;
+}
+
+.header_nav li{
+	display: inline-block;
+	margin-right: 2%;
+	vertical-align: top;
+}
+
+
+.header_nav a{
+	display: block;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	font-size: 0.8em;
+	
+}
+
+
+.header_bar {
+	background: #cc0000;
+	margin: 0 auto;
+	width: 75%;
+	height: 50px;
+	margin-top: -35px;
+	border-radius: 5px;
+}
+
+.flower{
+	height: 30px;
+}
+
+.header_menu_button {
+	float: left;
+	margin-left: 1%;
+  	margin-top: 11px;
+}
+
+.wide_menu_button {
+	display: block;
+	height: 21px;
+}
+
+.header_categories {
+	border-top: 1px solid #f24b33;
+	border-radius: 5%
+}
+
+.search_bar {
+	display: block;
+	float: left;
+}
+ 
+fieldset {
+	border: none;
+}
+
+.in_your_card {
+	display: block;
+	float: left;
+}
+
+.free_shipping_header {
+	display: none;
+}
+
+.free_shipping_header_2{
+	text-decoration: none;
+	text-align: center;
+	font-size: 0.8em;
+	color: #727578;
+	display: block;
+}
+
+.free_shipping_header_2 span{
+	color: #b50000;
+}
+
+.header_categories h3 {
+	display: block;
+	color: white;
+	float: left;
+	margin: 12px 2% 0 2%;
+	font-size: 1.1em;
+}
+
+select {
+	width: 8%;
+	margin-right: 0;
+}
+
+select option {
+	background: white;
+	border: 1px solid #f24b33;
+}
+
+.search_bar {
+	width: 63%;
+	padding: 1%;
+}
+
+.text_area{
+	width: 84%;
+	margin-left: 0;
+	padding: 1%;
+}
+
+.submit_button img{
+	height: 28px;
+	width: 7%;
+	float: right;
+}
+
+.in_your_cart {
+	display: block;
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 25%;
+	margin-left: 85%;
+}
+
+.side_bar_nav {
+	display: block;
+	float: left;
+	margin-left: 5%;
+	margin-top: 80px;
+	border-right: 1px solid #727578;
+	margin-right: 3%;
+	padding-right: 2%;
+}
+
+.side_bar_nav a{
+	font-size: 0.9em;
+	color: black;
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+.side_bar_nav > nav > ul > li {
+	font-size: 1.3em;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-top: 1px solid #727578;
+	list-style: none;
+}
+
+.side_bar_nav nav > ul > li:first-child {
+	border-top: none;
+	padding-top: 0;
+	margin-top: 20px;
+}
+
+.side_bar_sub_nav {
+	list-style: none;
+}
+
+.category_title h1 {
+	border-bottom: none;
+}
+
+.category_title h6 {
+	padding-top: 0;
+}
+
+
+.shop_categories {
+	float: left;
+	margin: 0;
+	width: 46%;
+	border-right: 1px solid #727578;
+	border-bottom: 1px solid #727578;
+	margin-bottom: 50px;
+}
+
+
+.shop_categories h2 {
+/*	margin-bottom: 65px;
+	margin-top: 15px;*/
+	margin:0;
+}
+
+.shop_categories a{
+	background: none;
+	color: black;
+	border-radius: none;
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0;
+	float: left;
+	width: 33%;
+	margin-bottom: 50px;
+	height: 200px;
+}
+
+.shop_categories h3 {
+	font-size: 1.3em;
+	width: 65%;
+}
+
+.shop_categories img{
+	display: block;
+	height: 100px;
+}
+
+.featured_items_mobile{
+	display: none;
+}
+
+.featured_items {
+	float: left;
+	width: 26%;
+	margin-top: 40px;
+	display: block;
+}
+
+.featured_items h2 {
+	border: none;
+	margin-top: 0;
+}
+
+.kid_bikes_image {
+	float: none;
+	margin: 0;
+}
+
+.kid_bikes {
+	float: none;
+	margin: 0;
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+/*
+.bikes {
+	border-right: 1px solid #727578;
+	border-bottom: 1px solid #727578;
+}
+
+.boating {
+	border-bottom: 1px solid #727578;
+}
+
+.camping {
+	border-bottom: 1px solid #727578;
+	border-left: 1px solid #727578;
+}
+
+.coolers {
+	border-right: 1px solid #727578;
+	border-bottom: 1px solid #727578;
+}
+
+.exercise {
+	border-bottom: 1px solid #727578;
+	border-right: 1px solid #727578;
+}
+
+.pools {
+	border-bottom: 1px solid #727578;
+}
+
+.fans {
+	border-right: 1px solid #727578;
+}
+
+.scooters {
+	border-bottom: 1px solid #727578;
+	border-right: 1px solid #727578;
+}
+
+.toys {
+	border-bottom: 1px solid #727578;
+}
+
+.sports_equipment {
+	border-right: 1px solid #727578;
+	border-top: 1px solid #727578;
+}
+
+.game_room {
+	border-right: 1px solid #727578;
+}
+*/
+
+.top_rated {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.top_rated h2 {
+	border: none;
+	margin-left: 20%
+}
+
+.discounted {
+	display: block;
+	float: left;
+	width:26%;
+}
+
+.discounted h2{
+	margin-top: 30px;
+	padding-top: 20px;
+}
+
+.pool_image img {
+	float: left;
+	width: 100%;
+}
+
+.fathers_day {
+	float: none;
+	width: 95%;
+	padding: 0;
+}
+
+.fathers_day_words {
+	float: none;
+	width: 100%;
+	margin-left: 5%;
+	margin-top: 35px;
+}
+
+.fathers_day_image {
+	float: none;
+	width: 100%;
+	margin-top: 30px;
+	margin-left: 10%;
+}
+
+.fathers_day_image img {
+	height: 200px;
+}
+
+.discounted_mobile {
+	display: none;
+}
+
+.viewed_items{
+	float: left;
+	display: block;
+	width: 15%;
+	text-align: center;
+	border-right: 1px solid #727578;
+	margin-left: 3%;
+	padding: 3%;
+}
+
+.viewed_items p{
+	font-size: 0.8em;
+}
+
+.footer_nav {
+	float: left;
+	width: 80%;
+}
+
+.footer_nav ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.footer_nav > ul > li {
+	font-size: 0.8em;
+	width: 13%;
+}
+
+.footer_nav li {
+	display: block;
+}
+
+.sub_menu a{
+	line-height: 1;
+	color: black;
+	display: block;
+}
+
+.sub_menu  {
+	margin-left: 0;
+	font-weight: normal;
+}
+
+.li1, .li2, .li3, .li4, .li5 {
+	float: left;
+	width: 20%;
+	font-weight: bold;
+}
+
+.third_footer_nav {
+	display: inline-block;
+}
+
+
+
+
+
+}
+

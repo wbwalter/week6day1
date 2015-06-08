@@ -1,0 +1,80 @@
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+    /* ie 6/7 */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Helvetica Neue";
+    margin: 0;
+}
+
+
+@media screen and ( max-width: 600px ){
+    
+    .wrapper{
+        position: relative;
+        transition: left 0.5s;
+        left: 0;
+    }
+
+    .wrapper.cat_nav_state{
+        left: 80%;
+    }
+
+    .wrapper.sub_nav_state{
+        left: 160%;
+    }
+
+    .main_navigation{
+        background: red;
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 80%;
+        right: 100%;
+        bottom: 0;
+    }
+
+    .sub_nav{
+        background: blue;
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        right: 100%;
+        bottom: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

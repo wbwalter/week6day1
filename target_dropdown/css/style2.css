@@ -1,0 +1,280 @@
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+    /* ie 6/7 */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Helvetica Neue";
+    margin: 0;
+}
+
+.main_header {
+    background: #b50000;
+    margin-bottom: 5em;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main_header_logo {
+    float: left;
+    width: 20%;
+}
+
+.main_header_logo a{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 40%;
+    max-width: 60px;
+}
+
+.main_header_logo img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.secondary_nav {
+    float: right;
+    width: 80%;
+}
+
+.secondary_nav ul {
+    margin: 0;
+    padding: 2.2em 0 0 0;
+    list-style: none;
+}
+
+.secondary_nav li {
+    display: inline-block;
+    width: 10%;
+}
+
+.secondary_nav .icon_background {
+    width: 25%;
+    font-size: 0.9em;
+}
+
+.secondary_nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.secondary_nav .icon_background a {
+    padding-left: 20%;
+    background: url(../img/gio/logo.png );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+
+.header_bar {
+    background-color: #cc0000;
+    border-radius: 3px;
+    border-top: 1px solid #f24b33;
+}
+
+.main_nav_container {
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.search_bar {
+    width: 60%;
+    float: left;
+}
+
+.in_your_cart {
+    width: 20%;
+    float: left;
+}
+
+.in_your_cart .dropdown {
+    display: none;
+}
+
+.small_call_to_action {
+    display: block;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.top_bar {
+    padding-bottom: 1em;
+}
+
+.header_bar {
+    position: absolute;
+    bottom: -1.5em;
+    left: 0;
+    right: 0;
+}
+
+.small_call_to_action {
+    position: absolute;
+    bottom: -4em;
+    left: 0;
+    right: 0;
+}
+
+/*.cat_select {
+    -webkit-appearance: none;
+    border-radius: 0;
+    display: block;
+    padding: 0.1em;
+    border: none;
+    outline: none;
+}*/
+
+.side_bar_nav {
+    width: 15%;
+    float: left;
+}
+
+.shop_categories {
+    float: left;
+    width: 70%;
+}
+
+.shop_categories ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.shop_categories li {
+    display: inline-block;
+    width: 25%;
+    border-bottom: 1px solid green;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.shop_categories li a {
+    display: block;
+}
+
+.shop_categories li img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+.header_menu_button{
+    background-image: url( ../img/gio/hamburger.png );
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: 5% center;
+    display: block;
+    padding: 0.5em 0.3em 0.5em 3em;
+    color: white;
+    text-decoration: none;
+}
+
+.header_menu_button.active, .header_menu_button:hover{
+    background-color: rgba( 0,0,0, 0.2 );
+}
+
+.top_nav{
+    position: absolute;
+    top: 100%;
+    display: block;
+    background: #444;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    color: white;
+    border-radius: 0 0 2px 2px;
+    z-index: 1000;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 4px 6px rgba( 0,0,0, 0.4 );
+}
+
+.top_nav a{
+    display: block;
+}
+
+.top_nav > li{
+    display: block;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #666;
+}
+
+.top_nav > li:last-child{
+    border-bottom: none;
+}
+
+.top_nav > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 0.8em 0.6em;
+}
+
+.top_nav > li.active > a, .top_nav > li > a:hover{
+    background: rgba( 0,0,0, 0.3 );
+}
+
+.lev_2_nav{
+    background: rgba( 245, 245, 245, 1);
+    position: absolute;
+    top: 0;
+    width: 400%;
+    left: 100%;
+    padding: 2em;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 5px 5px 5px rgba( 0,0,0, 0.3 );
+}
+
+.lev_2_nav > li{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
