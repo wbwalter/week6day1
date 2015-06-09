@@ -35,7 +35,8 @@ body {
         transition: left 0.5s;
         left: 0;
     }
-
+    
+    /* START SLIDING ANIMATION */
     /*.wrapper.cat_nav_state .main_navigation{
         left: 80%;
     }
@@ -43,6 +44,20 @@ body {
     .wrapper.sub_nav_state .main_navigation{
         left: 160%;
     }*/
+
+    /* STOP SLIDING ANIMATION */
+
+    
+    /*START OVERLAY ANIMATON*/
+    .wrapper.cat_nav_state .main_navigation,
+    .wrapper.sub_nav_state .main_navigation{
+        right: 20%;
+    }
+
+    .wrapper.sub_nav_state .sub_nav{
+        right: 0;
+    }
+    /*STOP OVERLAY ANIMATON*/
 
     .main_navigation{
         background: red;
@@ -53,15 +68,6 @@ body {
         right: 100%;
         bottom: 0;
         transition: right 0.5s;
-    }
-
-    .wrapper.cat_nav_state .main_navigation,
-    .wrapper.sub_nav_state .main_navigation{
-        right: 20%;
-    }
-
-    .wrapper.sub_nav_state .sub_nav{
-        right: 0;
     }
 
     .sub_nav{

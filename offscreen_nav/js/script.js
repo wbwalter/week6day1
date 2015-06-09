@@ -2,7 +2,7 @@ $( function(){
 
     var menu_icon  = $( ".menu_icon" );
     var main_links = $( ".main_navigation > ul > li > a" );
-    var sub_links  = $( ".sub_nav a" );
+    var sub_links  = $( ".sub_nav ul a" );
     var wrapper    = $( ".wrapper" );
     var back       = $(".backbutton");
 
