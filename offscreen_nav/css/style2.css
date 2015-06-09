@@ -36,13 +36,13 @@ body {
         left: 0;
     }
 
-    .wrapper.cat_nav_state{
+    /*.wrapper.cat_nav_state .main_navigation{
         left: 80%;
     }
 
-    .wrapper.sub_nav_state{
+    .wrapper.sub_nav_state .main_navigation{
         left: 160%;
-    }
+    }*/
 
     .main_navigation{
         background: red;
@@ -52,6 +52,16 @@ body {
         width: 80%;
         right: 100%;
         bottom: 0;
+        transition: right 0.5s;
+    }
+
+    .wrapper.cat_nav_state .main_navigation,
+    .wrapper.sub_nav_state .main_navigation{
+        right: 20%;
+    }
+
+    .wrapper.sub_nav_state .sub_nav{
+        right: 0;
     }
 
     .sub_nav{
@@ -62,8 +72,8 @@ body {
         width: 100%;
         right: 100%;
         bottom: 0;
+        transition: right 0.5s;
     }
-
 }
 
 

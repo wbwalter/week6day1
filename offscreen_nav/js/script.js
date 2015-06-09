@@ -1,11 +1,11 @@
 $( function(){
 
-    console.log( "loading file" );
-
     var menu_icon  = $( ".menu_icon" );
     var main_links = $( ".main_navigation > ul > li > a" );
     var sub_links  = $( ".sub_nav a" );
     var wrapper    = $( ".wrapper" );
+    var back       = $(".backbutton");
+
     var breakpoint = 600;
 
     menu_icon.on( "click", function( e ){
@@ -24,6 +24,12 @@ $( function(){
     sub_links.on( "click", function( e ){
 
         wrapper.removeClass( "sub_nav_state" );
+        e.preventDefault();
+    } );
+
+    back.on( "click", function( e ){
+
+        wrapper.removeClass( "cat_nav_state sub_nav_state" );
         e.preventDefault();
     } );
 
